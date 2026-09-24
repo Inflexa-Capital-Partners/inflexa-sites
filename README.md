@@ -1,8 +1,22 @@
-# Inflexa Capital Partners — Website Preview
+# Inflexa Capital Partners — public site
 
-GitHub Pages preview of the Inflexa Hybrid Capital Solutions interactive teaser.
+Live Pages: **https://inflexa-capital-partners.github.io/inflexa-sites/**
 
-**Source:** `Inflexa Hybrid Capital — Interactive Teaser.html` (NAS / career BD folder).  
-**Deploy:** GitHub Pages from `main` `/` (root). Includes `.nojekyll` so Pages serves static assets as-is.
+## What’s here
 
-Intentionally excluded: presentation decks, `node_modules`, Claude `inflexa_work` trees, and bot seed material.
+| Path | What |
+|------|------|
+| `index.html` | v1 public site — Hybrid Capital interactive teaser |
+| `.nojekyll` | Lets GitHub Pages serve the static tree as-is |
+| `assets/` | Static images (e.g. hero still) |
+| `docs/` | Brief, messaging extract, source map, next-agent roadmap |
+
+## Working model
+
+1. **Root = what the world sees** (Pages from `main` `/`).
+2. **`docs/` = context for humans and agents** improving the site.
+3. Confidential BD materials stay on the NAS — see `docs/03-source-map.md`.
+
+## Account
+
+Owned under [Inflexa-Capital-Partners](https://github.com/Inflexa-Capital-Partners). Do not publish site work under personal GitHub accounts.
